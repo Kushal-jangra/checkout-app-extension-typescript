@@ -5,6 +5,7 @@ export default function NewPage() {
         <s-paragraph>
           The app template comes with an new page page which demonstrates how
           to create multiple pages within app navigation using
+          hello 
         </s-paragraph>
      
       </s-section>

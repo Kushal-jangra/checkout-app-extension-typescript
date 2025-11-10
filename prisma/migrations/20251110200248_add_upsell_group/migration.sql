@@ -1,0 +1,8 @@
+-- CreateTable
+CREATE TABLE "UpsellGroup" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "title" TEXT NOT NULL,
+    "shop" TEXT NOT NULL,
+    "productIds" TEXT NOT NULL,
+    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
