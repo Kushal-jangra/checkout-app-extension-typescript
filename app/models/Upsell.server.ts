@@ -67,7 +67,7 @@ type ProductData = {
 
 // A type for your "enriched" upsell group, combining your
 // database data with the live product data from Shopify.
-type EnrichedUpsellGroup = {
+export type EnrichedUpsellGroup = {
   id: number;
   title: string;
   shop: string;
