@@ -234,7 +234,7 @@ export async function deleteUpsellGroup(id: number, shop: string) {
     where: { id, shop },
   });
 
-  return { success: true };
+  return {success: true};
 }
 
 // --- Internal Helper Function ---

@@ -49,7 +49,7 @@ export const loader = async ({ request, params }: LoaderFunctionArgs) => {
   const group = await getUpsellGroup(Number(params.id), session.shop, admin);
 
   if (!group) {
-    return redirect("/app/upsells");
+    return redirect("/app");
   }
 
   return json(group);
@@ -64,7 +64,7 @@ export const action = async ({ request, params }: ActionFunctionArgs) => {
 
   if (actionField === "delete") {
     await deleteUpsellGroup(Number(params.id), shop);
-    return redirect("/app/upsells");
+    return redirect("/app");
   }
 
   const data = {

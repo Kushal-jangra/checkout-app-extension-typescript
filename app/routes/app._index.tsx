@@ -9,8 +9,6 @@ import { useFetcher, useLoaderData } from "react-router";
 import { useAppBridge } from "@shopify/app-bridge-react";
 import { authenticate } from "../shopify.server";
 import { boundary, Session } from "@shopify/shopify-app-react-router/server";
-import { C } from "node_modules/react-router/dist/development/index-react-server-client-B0vnxMMk.mjs";
-import { get } from "http";
 import { getUpsellGroups } from "app/models/Upsell.server";
 import type { EnrichedUpsellGroup } from "app/models/Upsell.server";
 
@@ -144,7 +142,7 @@ export default function Index() {
   const { upsellGroups } = useLoaderData();
 
   return (
-    <s-page heading="QR codes">
+    <s-page heading="Upsell Groups">
       <s-link slot="secondary-actions" href="/app/upsell/new">
         Create new Group
       </s-link>
