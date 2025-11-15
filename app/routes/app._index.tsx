@@ -24,14 +24,17 @@ const EmptyQRCodeState = () => (
       <s-box maxInlineSize="200px" maxBlockSize="200px">
         <s-image
           aspectRatio="1/0.5"
-          src="https://cdn.shopify.com/s/files/1/0262/4071/2726/files/emptystate-files.png"
+          src="https://cdn.shopify.com/s/files/1/0964/6410/9866/files/upselling.png?v=1762891408"
           alt="A stylized graphic of a document"
         />
       </s-box>
       <s-grid justifyItems="center" maxBlockSize="450px" maxInlineSize="450px">
         <s-heading>Create new Upsell Groups</s-heading>
         <s-paragraph>
-              Get started by creating your first upsell group to offer products at checkout 
+              Get started by creating your first upsell group to offer additional 
+        </s-paragraph>
+        <s-paragraph>
+              products to your customers at checkout 
         </s-paragraph>
         <s-stack
           gap="small-200"
